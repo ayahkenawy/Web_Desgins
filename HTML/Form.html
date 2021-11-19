@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <form name="Login" method="post" action="session-two.html">
+            <label>Name</label>
+            <!-- title to msg alert -->
+            <input type="text" placeholder="Enter Name Here" pattern="[A-Z](3)" title="at least 3 char"autofocus><br>
+            <label>Password</label>
+            <input type="password" placeholder="Enter Password Here"><br>
+            <label>Email</label>
+            <input type="email" placeholder="Enter Email Here"><br>
+            <label>Date</label>
+            <input type="date"><br>
+            <input type="month"><br>
+            <input type="datetime-local"><br>
+            <label>PhoneNo.</label>
+            <input type="number"><br>
+            <label>Gender</label>
+            <input type="radio" value="male">male
+            <input type="radio" value="female">female<br>
+            <label>Language</label>
+            <input type="checkbox">cs
+            <input type="checkbox">js<br>
+            <label>Select File</label>
+            <input type="file" name="file" multiple><br>
+            <label>Course</label>
+            <select name="course_name" multiple>
+                <option disabled selected>--Select--</option>
+                <option value="css">css</option>
+                <option>js</option>
+                <option>html</option>
+            </select><br>
+            <label>Comment</label>
+            <textarea></textarea><br>
+            <input type="color"><br>
+            <input type="url"><br>
+            <!-- range -->
+            <input type="range" name="range" max="100" min="50" step="5"><br>
+            <input type="submit" value="RegisterNow"><br>
+            <input type="submit" value="Refresh"><br>
+            <input type="reset" value="Clear">
+        </form>
+    </body>
+</html>
