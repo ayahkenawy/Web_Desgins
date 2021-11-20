@@ -96,7 +96,7 @@ font-weight:bold;
 .download p , .container p{
     line-height: 2;
     color: lightgray;
-    text-align: justify;
+    text-align: center;
 }
 .download input{
     color: white;
@@ -148,8 +148,9 @@ vertical-align: top;
     float:left;
 }
 .shadowImg img {
-    filter: drop-shadow(0px 138px 2px#686866);
+    /* filter: drop-shadow(0px 138px 2px#686866); */
     width: 20%;
+    -webkit-box-reflect: below;
 }
 .shadowImg{
     padding-top: 8%;
@@ -289,4 +290,79 @@ border:none;
 }
 .awesome hr{
     margin: auto;
+}
+/* princing style */
+.pricing-section{
+    padding: 3% 0;
+}
+.pricing-section .card{
+    width: 31%;
+}
+.pricing-section .card .card-head{
+    background: black;
+    color: white;
+    padding-top: 2%;
+}
+.pricing-section .card .card-title{
+    border-bottom: 1px solid lightgrey;
+    padding-bottom: 3%;
+}
+.pricing-section .card hr{
+    background: orange;
+    border: 2px solid orange;
+    margin-top: 5%;
+}
+.pricing-section .card .card-list{
+    background: white;
+}
+.pricing-section .card .card-list li{
+    /* color: lightgrey; */
+    padding: 4%;
+    border-bottom: 1px solid #e9e6e6;
+}
+.pricing-section .card .card-p-bg-orange{
+    background: orange;
+    padding: 3%;
+    margin-top: 5%;
+}
+.hr-center{
+    width: 5%;
+    margin: 3% auto;
+    background: orange;
+    border: 2px solid orange;
+}
+
+.big-number{
+    font-size: 95px;
+}
+
+.no-border{
+    border-bottom: 0px;
+}
+.d-flex{
+    display: flex;
+}
+.justify-content-between{
+    justify-content: space-between;
+}
+.align-items-center{
+    align-items: center;
+}
+.align-items-end{
+    align-items: flex-end;
+}
+.text-center{
+    text-align: center;
+}
+ul {
+    list-style: none;
+}
+.custom-margin{
+    margin-top: 4%;
+}
+.text-light{
+    color: #aeabab;
+}
+.bg-light{
+    background-color: #F5F5F5;
 }
