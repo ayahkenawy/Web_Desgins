@@ -132,3 +132,16 @@
 .div-scale-hover:hover {
   box-shadow: 45px -4px 17px gray;
 }
+.hover-card:hover .hidden-card{
+  position: absolute;
+  top: 45%;
+}
+.hover-card{
+  height: 440px;
+}
+.hover-card:hover .hidden-card h6{
+  border: none !important;
+}
+.mt-7{
+  margin-top:7%;
+}
