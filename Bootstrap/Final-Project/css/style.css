@@ -96,3 +96,6 @@
   bottom: 40px;
   right: 3%;
 }
+.col-over:hover{
+  border-bottom:solid blue !important;
+}
