@@ -52,9 +52,7 @@
 .bg-white {
   background-color: white;
 }
-.text-white {
-  color: white !important;
-}
+
 .p-position {
   top: 31%;
   left: 4%;
@@ -98,4 +96,39 @@
 }
 .col-over:hover{
   border-bottom:solid blue !important;
+}
+.bg-img-a {
+  background-image: url(http://dazzlersoftware.com/testwp/munix-pro/wp-content/themes/munix-pro/img/service-bg.jpg);
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  height: 750px;
+}
+.height-200{
+  height:200px;
+}
+.hover-div:hover .hidden-div{
+  position:absolute;
+  top:0;
+}
+.link-hover:hover{
+  color:blue;
+}
+.div-scale{
+  background-color: blue;
+  opacity: 50%;
+  background: rgb(54, 17, 231);
+  top: 0;
+  opacity: .75;
+  transform: scale(0);
+  position: absolute;
+  top: 75%;
+  width: 100%;
+  left: 13%;
+}
+.div-scale-hover:hover .div-scale {
+  transform: scale(1);
+  box-shadow: 45px -4px 17px gray;
+}
+.div-scale-hover:hover {
+  box-shadow: 45px -4px 17px gray;
 }
