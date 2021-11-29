@@ -145,3 +145,14 @@
 .mt-7{
   margin-top:7%;
 }
+.border-left{
+  border-top-left-radius: 50px !important;
+  border-bottom-left-radius: 50px !important;
+}
+.border-right{
+  border-top-right-radius: 50px !important;
+  border-bottom-right-radius: 50px !important;
+}
+.center-hr{
+  margin: 6% 40%;
+}
