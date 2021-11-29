@@ -156,3 +156,41 @@
 .center-hr{
   margin: 6% 40%;
 }
+.m-bottom-5{
+  margin-bottom: 5%;
+}
+.border-bottom-left{
+border-bottom-left-radius: 5px !important;
+}
+/* .progress:hover .progress-bar{
+  width: 100% !important;
+
+}
+.ul-hover:hover .ul-hover ul{
+  color:white;
+  background-color:blue;
+} */
+.card-hover:hover .ul-hover{
+  color:white !important;
+  background-color:blue !important;
+}
+.card-hover:hover .progress-bar{
+  width: 100% !important;
+
+}
+.card-hover:hover .card-img-top{
+  transform: rotate(10deg) !important; 
+  transform: scale(1.2) !important;  
+}
+.p-bottom{
+  padding-bottom: 7% !important;
+}
+.a-hover:hover i{
+  margin-left:2%
+}
+.drop-shadow{
+  filter: drop-shadow(12px 12px 25px rgba(0,0,0,0.5));
+}
+.p-top{
+  padding-top: 12% !important;
+}
