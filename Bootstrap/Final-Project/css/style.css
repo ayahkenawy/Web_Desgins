@@ -194,3 +194,11 @@ border-bottom-left-radius: 5px !important;
 .p-top{
   padding-top: 12% !important;
 }
+.owl-carousel .owl-nav button.owl-prev{
+  background: blue !important;
+  color: white  !important;
+  padding: 1px 20px!important;
+  font-size: 25px !important;
+  border-top-left-radius: 20px !important;
+  border-bottom-left-radius: 20px !important;
+}
