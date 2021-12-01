@@ -208,3 +208,9 @@ border-bottom-left-radius: 5px !important;
   border-top-right-radius: 20px !important;
   border-bottom-right-radius: 20px !important;
 }
+#btn-Top{
+  display: none;
+}
+html{
+  scroll-behavior: smooth;
+}
