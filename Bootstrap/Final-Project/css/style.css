@@ -84,7 +84,7 @@
   margin-top: 20%;
 }
 .mt-10 {
-  margin-top: 11%;
+  margin-top: 10%!important;
 }
 .btn-hover-dark:hover {
   background-color: black;
