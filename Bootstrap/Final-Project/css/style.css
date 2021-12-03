@@ -218,3 +218,6 @@ html{
 .bg-height{
   height:570px !important
 }
+.nav-item :hover{
+  color:blue !important;
+}
